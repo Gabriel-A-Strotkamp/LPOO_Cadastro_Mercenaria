@@ -53,7 +53,7 @@ public class ClienteJF extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         lstClientes = new javax.swing.JList<>();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         lblTitulo.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         lblTitulo.setText("Clientes Cadastrados");
