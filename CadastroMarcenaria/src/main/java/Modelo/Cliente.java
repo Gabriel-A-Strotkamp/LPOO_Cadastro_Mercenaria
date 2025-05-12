@@ -48,6 +48,11 @@ public class Cliente {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "nome=" + nome + '}';
+    }
     
     
 }
